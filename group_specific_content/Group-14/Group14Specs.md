@@ -10,7 +10,7 @@ Person taking lead - Ho Wang Ho
 
 #### Class Description
 
-The EventQueue class manages time-based or priority-based events in the game world. It mostly controls in-game events to be scheduled for future execution, enabling cooldowns, delayed effects.
+The EventQueue class manages time-based or priority-based events in the game world. It mostly controls in-game events to be scheduled for future execution, enabling cooldowns, delayed effects. The EventQueue itself does not interpret event contents; it is responsible only for ordering, timing, and retrieval of events. This design could let the class remain generic in different event types.
 
 #### Similar Classes
 
